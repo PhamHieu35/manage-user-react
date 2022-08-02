@@ -1,0 +1,41 @@
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  .sort {
+    i {
+      cursor: pointer;
+      padding: 0 2px;
+    }
+  }
+}
+.search-input {
+  position: relative;
+  input {
+    padding: 8px 30px;
+  }
+  i {
+    position: absolute;
+    top: 14px;
+    left: 8px;
+  }
+}
+
+.add-new {
+  // display: flex;
+  justify-content: space-between;
+  .group-btns {
+    display: flex;
+    gap: 10px;
+
+    i {
+      padding: 0px 5px;
+    }
+  }
+}
+.custom-table {
+  width: inherit;
+  overflow-x: auto;
+}
+.pagination {
+  justify-content: center;
+}

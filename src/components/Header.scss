@@ -1,0 +1,19 @@
+Nav {
+  a.menu {
+    position: relative;
+    // margin: 0px 10px;
+  }
+  a.menu::after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.5s;
+  }
+  a.menu:hover::after {
+    width: 100%;
+  }
+}
